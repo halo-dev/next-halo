@@ -27,7 +27,7 @@
       $('.popup-btn-close').click(onPopupClose);
       $(document).keydown(function (event) {
           var keyword = $("#local-search-input").val();
-          if (event.keyCode === 13) {
+          if (event.keyCode === 13 && document.getElementsByClassName("popup search-popup local-search-popup")[0].style.display === "block") {
               window.location.href="${blog_url!}/search?keyword="+keyword;
           }
       });
