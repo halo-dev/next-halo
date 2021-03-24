@@ -55,7 +55,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="${settings.favicon_medium!'${theme_base!}/source/images/favicon-32x32-next.png'}?v=5.1.4">
     </#if>
     <#if (settings.favicon_small!'${theme_base!}/source/images/favicon-16x16-next.png')!=''>
-        <link rel="icon" type="image/png" sizes="16x16" href="${settings.favicon_small!'${theme_base!}/source/images/favicon-16x16-next.png'}v=5.1.4">
+        <link rel="icon" type="image/png" sizes="16x16" href="${settings.favicon_small!'${theme_base!}/source/images/favicon-16x16-next.png'}?v=5.1.4">
     </#if>
     <#if (settings.safari_pinned_tab!'${theme_base!}/source/images/logo.svg')!=''>
         <link rel="mask-icon" href="${settings.safari_pinned_tab!'${theme_base!}/source/images/logo.svg'}?v=5.1.4" color="${settings.android_chrome_color!}">

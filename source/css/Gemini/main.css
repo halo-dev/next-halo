@@ -896,7 +896,7 @@ body {
 }
 .back-to-top {
   display: none;
-  margin: 20px -10px -20px;
+  margin: 20px 0px -20px;
   background: #eee;
   font-size: 12px;
   opacity: 0.6;
